@@ -10,10 +10,10 @@
 
 <body>
     <header>    
-        <div class ="container">
-            <div class="row justify-content-between">
-                 <div class ="col-3 blue"><a href="index.html"><img src="wire/logo4.png" alt="logo Terrain Facile"></a></div>
-                 <div class ="col-6 red">
+        
+            <div class="row justify-content-between" style="width : 100%">
+                 <div class ="col-3 align-self-center "><a href="index.html"><img src="wire/logo4.png" alt="logo Terrain Facile"></a></div>
+                 <div class ="col-6 align-self-center " style ="">
                      <ul>
                      <li><a href="terrain.html">Terrain</a></li>
                      <li class="traitHead"></li>
@@ -26,23 +26,21 @@
                      <li><a href="terrain.html">Jardin</a></li>
                      </ul>
                  </div>
-                 <div class="col-3 green">
+                 <div class="col-3 align-self-center " style="text-align: end;">
                      <a href="compte.html">Se connecter</a>
-                     <a class="linkCompte" href="inscription.html">Inscrivez-vous</a>
+                     <button class="btn btn-success linkCompte">Inscrivez-vous</button>
                  </div>
-             </div>
-         </div>
+            </div>
+        
     </header>
-    
-    <div class="espace"></div>  <!--bloc qui permet d'obtenir un espace entre le haut de page et le début du contenu, il fait la taille du header-->
 
 	<div class="row justify-content-around" style="margin : 50px" >
-		<div class="col-4">
+		<div class="col-4 " style="margin : auto 0;">
 			<div class="accroche">Organisez tout votre évènement, en un seul clic</div>
-    		<div class="btn btn-success annonce lienAnnonce">Déposer une annonce</div>
+    		<div class="btn btn-success annonce lienAnnonce" style="margin : 15px 170px 0px 175px">Déposer une annonce</div>
     		<div class="decouvrir"><a class="lienDecouvrir" href="#">Découvrir comment ça marche</a></div>
         </div>
-    	<div class =col-4><img src="img/photo.jpg" alt="photo de terrain"/></div>
+    	<div class ="col-4 "><img src="img/photo.jpg" alt="photo de terrain"/></div>
     </div>	
 
 	<div class=trait></div>  <!--bloc permettant de créer un trait horizontal avec une bordure-->
@@ -69,12 +67,16 @@
     <div class="espaceFooter"></div>  <!--bloc qui permet d'obtenir un espace entre le haut de page et le début du contenu, il fait la taille du header-->
     
    <footer>
-        <ul>
-            <li><a class="linkFooter" href="#">Nous contacter</a></li>
-            <li><a class="linkFooter" href="#">Qui sommes-nous ?</a></li>
-            <li><a class="linkFooter" href="#">Nos partenaires</a></li>
-            <li><a class="linkFooter" href="#">Singalez un problème</a></li>
-        </ul>
+    <div class="row justify-content-around">
+        <div class="col align-self-center">
+            <ul>
+                <li><a class="linkFooter" href="#">Nous contacter</a></li>
+                <li><a class="linkFooter" href="#">Qui sommes-nous ?</a></li>
+                <li><a class="linkFooter" href="#">Nos partenaires</a></li>
+                <li><a class="linkFooter" href="#">Singalez un problème</a></li>
+            </ul>
+        </div>
+    </div>
     </footer>
     
     </html>

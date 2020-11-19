@@ -20,25 +20,27 @@ body {
     overflow: hidden;
     background-color: #545252;
     color: white;
-    position: fixed;
+   
 }
 header ul {
     display: flex;
     list-style-type: none;
+    margin : 0;
+    padding :0;
 }
 header ul li {
-    margin: auto 50px;
+    margin: auto 40px;
 }
 header a {
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: white;
     padding: 5px;
     margin: auto 5px;
 }
 footer {
     width: 100%;
-    height: 58px;
+    height: 30px;
     margin: 0;
     padding: auto;
     bottom: 0;
@@ -49,6 +51,8 @@ footer ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    padding:0;
+    margin:0;
 }
 .linkFooter {
     font-size: 1.1em;
@@ -101,11 +105,12 @@ h1 {
     margin: auto 5px;
 }
 .linkCompte {
+    text-decoration: none;
+    font-size: 1.2em;
     border-radius: 20px;
     background-color: #059c20;
 }
 .accroche {
-    
     font-size: 2.5em;
     color: black;
     text-align: center;
